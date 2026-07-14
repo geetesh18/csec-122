@@ -1,8 +1,5 @@
-
 #include <stdio.h>
-
-int main() {
-    
+int main() {    
     int n;
     scanf("%d",&n);
     int arr[n];
@@ -15,7 +12,6 @@ int main() {
     max=0;
     for(int i=0;i<n;i++)
     {
-        
         for(int j=i;j<n;j++)
         {
             sum+=arr[j];
@@ -25,6 +21,5 @@ int main() {
         sum=0;
     }
    printf("%d\n",max);
-
     return 0;
 }
